@@ -4,9 +4,52 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <title>Redeem</title>
 </head>
 <body>
-    <h1>Hello World</h1>
+    <div class="container">
+        <div class="row mt-3">
+            <div class="col">
+                <h3>Halo, Orang yang Kebetulan Dapet Ini!</h3>
+                <p>Ku bingung mau beli kado apa, jadi ku buat aja kek gini lah ya</p>
+                <p>Sorry ga seberapa, yang penting sentimennya ok</p>
+            </div>
+        </div>
+
+        <div class="row mt-5">
+            <div class="col">
+                <ol>
+                    <li>
+                        <p>Redeem ShoppeePay Aja Lah, bukanya di browser mobile aja ya...</p>
+                        <div class="accordion mb-4" id="accordionExample">
+                            <div class="accordion-item">
+                              <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                  Kenapa ShoppeePay?
+                                </button>
+                              </h2>
+                              <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>Riset menyebutkan bahwa ShopeePay mendapatkan penetrasi pasar tertinggi (68%), diikuti oleh OVO (62%), DANA (54%), GoPay (53%), dan LinkAja (23%). Salah satunya didapatkan melalui jajaran promosi terbanyak yang ditawarkan oleh ShopeePay menurut responden (42%), OVO (25%), GoPay (16%), DANA (13%), LinkAja (4%).
+                                        <a href="https://finance.detik.com/fintech/d-5723402/ovo-gopay-shopeepay-hingga-dana-siapa-juara-dompet-digital">Referensi</a></p>
+                                    <p>Selain itu juga ada fitut ShoppeePay THR yang bisa memfasilitasi ngasih uang tanpa tau tujuannya siapa, pastikan update dulu ke versi terbaru ya</p>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                        <p><a href="#" class="btn btn-primary">Redeem</a></p>
+                    </li>
+                    <li>
+                        <p>Additional Reward</p>
+                        <img src="images/qr-code.png" alt="" class="img-thumbnail" style="max-width: 250px;">
+                        <p id="hint" class="text-warning"></p>
+                    </li>
+                </ol>
+            </div>
+        </div>
+    </div>
 </body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+<script src="js/script.js"></script>
 </html>
